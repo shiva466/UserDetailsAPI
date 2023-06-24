@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5/lFvfLjGhY0zG6P3md5p5vniEkEtqZqKArrBtZBOjdBtPTe4xUuRBL9VzvLkHByGSIri6nLj9aN1FcC0J7AtA==",
+  "dgSpecHash": "wrMO+mLz55w9jVlzJCiUZrMrS/Z7j8sgp7p7/RaL9D/5bxUYChld1UPV1wrRv44NfAh9lHBoTlcY6t8jtSrW4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsDesktop\\UserDetailsDesktop\\UserDetailsDesktop.csproj",
+  "projectFilePath": "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsAPI\\UserDetailsDesktop\\UserDetailsDesktop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chama\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\chama\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

@@ -42,6 +42,10 @@ namespace UserDetailsDesktop
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseHsts();
+            }
 
             app.UseHttpsRedirection();
 
@@ -53,8 +57,6 @@ namespace UserDetailsDesktop
             });
 
             app.UseRouting();
-
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

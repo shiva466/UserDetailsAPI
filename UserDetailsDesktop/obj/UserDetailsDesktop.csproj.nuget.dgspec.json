@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsDesktop\\UserDetailsDesktop\\UserDetailsDesktop.csproj": {}
+    "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsAPI\\UserDetailsDesktop\\UserDetailsDesktop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsDesktop\\UserDetailsDesktop\\UserDetailsDesktop.csproj": {
+    "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsAPI\\UserDetailsDesktop\\UserDetailsDesktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsDesktop\\UserDetailsDesktop\\UserDetailsDesktop.csproj",
+        "projectUniqueName": "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsAPI\\UserDetailsDesktop\\UserDetailsDesktop.csproj",
         "projectName": "UserDetailsDesktop",
-        "projectPath": "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsDesktop\\UserDetailsDesktop\\UserDetailsDesktop.csproj",
+        "projectPath": "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsAPI\\UserDetailsDesktop\\UserDetailsDesktop.csproj",
         "packagesPath": "C:\\Users\\chama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsDesktop\\UserDetailsDesktop\\obj\\",
+        "outputPath": "C:\\Users\\chama\\Desktop\\GitHub Codes\\UserDetailsAPI\\UserDetailsDesktop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chama\\AppData\\Roaming\\NuGet\\NuGet.Config",
