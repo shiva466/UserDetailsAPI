@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,6 +12,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UserDetailsDesktop.DbConnection;
+using UserDetailsDesktop.Services;
 
 namespace UserDetailsDesktop
 {
@@ -26,12 +29,21 @@ namespace UserDetailsDesktop
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            string connectionString = Configuration.GetConnectionString("MySQLConnection");
             services.AddControllers();
             // Add Swagger services
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "User Details API", Version = "v1" });
             });
+            // Add Database
+            services.AddDbContext<MyDbContext>(options =>
+            {
+                options.UseMySql(connectionString);
+            });
+            services.AddSingleton(connectionString);
+            //services.AddScoped<UserDataHandler>();
+            services.AddTransient<IUserService, UserService>();
         }
 
 
