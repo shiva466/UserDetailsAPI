@@ -14,9 +14,9 @@
 2. Install MySQL server by clicking on '*mysql-installer-web-community*'.
 3. Make sure you enter the password as '*root*' or please change the connection string as shown in step 6 of SetUp section.
  <p><img width="580" alt="image" src="https://github.com/shiva466/UserDetailsAPI/assets/37341802/90cf9220-aeeb-4b6c-b00f-5d7477ca194e"></p>
-4. Open MySQL workbench.
-5. Click on Database than click on Connect to Database then click on OK.
-6. In the Query copy and paste the code from '*UserDetailsSetup.sql*'.
+4. Open MySQL workbench.<br/>
+5. Click on Database than click on Connect to Database then click on OK.<br/>
+6. In the Query copy and paste the code from '*UserDetailsSetup.sql*'.<br/>
 <p><img width="675" alt="image" src="https://github.com/shiva466/UserDetailsAPI/assets/37341802/28151f63-c6b3-4179-96a6-c8fa82ebef79"></p>
 7. Run the query excuter.
 
