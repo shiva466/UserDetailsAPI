@@ -35,6 +35,13 @@
     </p>
  7. Build the code and run "*IIS Express*"
 
+### API endpoints 
+1. GetAll: returns all the records in the database.(there is a isActive flag that is used to manage soft delete feature).
+2. GetById: returs the record requested by its userId.
+3. POST: add the new record into the database. (inserts the values of isActive to 1 as default)
+4. PUT: used to update the values for a specific userId.
+5. DELETE: used to soft delete the record based on userId. this record cannot be retried in the GetAll.
+ 
 ### Plug-In (Auto installed in the Visual Studio during build process)
  1. Swagger
  2. .Net Core Entity Framework
