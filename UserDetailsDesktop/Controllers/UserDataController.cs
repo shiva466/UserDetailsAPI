@@ -53,6 +53,10 @@ namespace UserDetailsDesktop.Controllers
         [HttpPost]
         public IActionResult Add([FromBody] UserDto user)
         {
+            if (user == null)
+            {
+                return BadRequest("User object is null.");
+            }
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
             User newUser = new User()

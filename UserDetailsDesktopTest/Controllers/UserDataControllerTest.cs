@@ -147,12 +147,13 @@ namespace UserDetailsDesktopTest.Controllers
         }
 
         [Test]
-        public void Add_NullUserObject_ReturnsBadRequest()
+        public void Add_NullUserObject_BadRequestObjectResult()
         {
             // Act
             var result = _userDataController.Add(null);
+
             // Assert
-            Assert.IsInstanceOf<BadRequestResult>(result);
+            Assert.IsInstanceOf<BadRequestObjectResult>(result);
             _userServiceMock.Verify(x => x.Add(It.IsAny<User>()), Times.Never);
         }
 
