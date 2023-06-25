@@ -4,15 +4,15 @@
 
 
  ### Pre-requisits:
-> 1. MySql WorkBench
-> 2. Visual Studio 2019 or later version
-> 3. .NET core 3.1
+ 1. MySql WorkBench
+ 2. Visual Studio 2019 or later version
+ 3. .NET core (3.1)
 
 ### Plug-In needed
-> 1. Swagger
-> 2. .Net Core Entity Framework
-> 3. NUnit
-> 4. Moq
+ 1. Swagger
+ 2. .Net Core Entity Framework
+ 3. NUnit
+ 4. Moq
 
  ### How to setup:
  1. Open MySQL Workbench.
